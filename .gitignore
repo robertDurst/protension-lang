@@ -1,29 +1,41 @@
-*.annot
-*.cmo
-*.cma
-*.cmi
-*.a
-*.o
-*.cmx
-*.cmxs
-*.cmxa
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
 
-# ocamlbuild working directory
-_build/
+pids
+logs
+results
+tmp
 
-# ocamlbuild targets
-*.byte
-*.native
+# Build
+public/css/main.css
 
-# oasis generated files
-setup.data
-setup.log
+# Coverage reports
+coverage
 
-# Merlin configuring file for Vim and Emacs
-.merlin
+# API keys and secrets
+.env
 
-# Dune generated files
-*.install
+# Dependency directory
+node_modules
+bower_components
 
-# Local OPAM switch
-_opam/
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# ignore yarn.lock
+yarn.lock
